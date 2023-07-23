@@ -18,6 +18,8 @@ collide with a car located at (1,0) moving to west.
 
 4. Allow cars with duplicated names.
 
+5. Cars which have not collided yet continue to execute commands even if some other cars have already collided. In another word, simulation ends only when every car completes its commands or has collided.
+
 # Design
 
 ## State machine
